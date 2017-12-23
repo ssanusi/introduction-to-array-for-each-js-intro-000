@@ -4,7 +4,7 @@ function doToElementsInArray(anArray,callback){
 }
 
 // Add your changeCompletely() function here:
-function changeCompletely(anArray,index,callback){
-  anArray[index].forEach(callback)
+function changeCompletely(element,index,array){
+  array[index] += "changed"  
 
 }
